@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.paragraph {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.search-container {
+  background-color: #152850;
+  padding: 20px;
+  min-height: 60vh;
+  overflow-y: auto;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.playlist-heading {
+  color: #ffffff;
+  font-size: 27px;
+  font-family: 'Roboto';
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 4px;
+  color: #ffffff;
+}
+
+.search-icon {
+  color: #ffffff;
+  margin-right: 3px;
+}
+
+.ul-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+}
+.para {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.sub-heading {
+  color: #ffffff;
+  font-size: 27px;
+  font-family: 'Roboto';
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+.search-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 4px;
+  color: #ffffff;
+}
+.icon {
+  color: #ffffff;
+  margin-right: 3px;
+}
+.list-element {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.no-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+  justify-content: center;
+}
+.no-results-para {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
